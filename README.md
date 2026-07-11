@@ -141,15 +141,23 @@ applicants declined) a deliberate, quantified trade-off that reduces total busin
 
 ## 6. Visualizations
 
-**Target class distribution** ![Target distribution](Loan_Default_Cost_Optimization/Images/Fig1_target_class_distribution.png) 
-**External credit bureau scores by outcome** ![EXT_SOURCE](Loan_Default_Cost_Optimization/Images/Fig2_external_credit_bureau_scores.png) 
-**Applicant age by outcome** ![Age](Loan_Default_Cost_Optimization/Images/Fig3_applicant_age_outcome.png) 
-**Correlation heatmap — top 20 features** ![Heatmap](Loan_Default_Cost_Optimization/Images/Fig4_correlation_heatmap.png) 
-**ROC curve — LR vs CatBoost** ![ROC](Loan_Default_Cost_Optimization/Images/Fig5_ROC_Curve_comparison.png) 
-**Top 20 feature importances (CatBoost)** ![Feature importance](Loan_Default_Cost_Optimization/Images/Fig6_top_20_feature_importance.png) 
-**Confusion matrix @ 0.5 threshold** ![CM default](Loan_Default_Cost_Optimization/Images/Fig7_Confusion_Matrix_CatBoost.png) 
-**Business cost vs. decision threshold** ![Cost curve](Loan_Default_Cost_Optimization/Images/Fig8_Businesscost_decision_threshold.png) 
-**Confusion matrix: default vs. cost-optimized threshold** ![CM comparison](Loan_Default_Cost_Optimization/Images/Fig9_confusionmatrix_default_costoptimized.png) 
+1. **Target class distribution** ![Target distribution](Loan_Default_Cost_Optimization/Images/Fig1_target_class_distribution.png)
+
+2. **External credit bureau scores by outcome** ![EXT_SOURCE](Loan_Default_Cost_Optimization/Images/Fig2_external_credit_bureau_scores.png)
+   
+3. **Applicant age by outcome** ![Age](Loan_Default_Cost_Optimization/Images/Fig3_applicant_age_outcome.png)
+
+4. **Correlation heatmap — top 20 features** ![Heatmap](Loan_Default_Cost_Optimization/Images/Fig4_correlation_heatmap.png) 
+
+5. **ROC curve — LR vs CatBoost** ![ROC](Loan_Default_Cost_Optimization/Images/Fig5_ROC_Curve_comparison.png)
+
+6. **Top 20 feature importances (CatBoost)** ![Feature importance](Loan_Default_Cost_Optimization/Images/Fig6_top_20_feature_importance.png) 
+
+7. **Confusion matrix @ 0.5 threshold** ![CM default](Loan_Default_Cost_Optimization/Images/Fig7_Confusion_Matrix_CatBoost.png) 
+
+8.**Business cost vs. decision threshold** ![Cost curve](Loan_Default_Cost_Optimization/Images/Fig8_Businesscost_decision_threshold.png) 
+
+9. **Confusion matrix: default vs. cost-optimized threshold** ![CM comparison](Loan_Default_Cost_Optimization/Images/Fig9_confusionmatrix_default_costoptimized.png) 
 
 ---
 
