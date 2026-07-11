@@ -56,7 +56,7 @@ The dataset is relational, spread across 6 files linked by `SK_ID_CURR` (client 
 
 | Table | Rows | Columns | Description |
 |---|---:|---:|---|
-| `application_train.csv` | 307,511 | 122 | Main table — one row per loan application, with `TARGET` label |
+| `application_train.csv` | 307,511 | 122 | Main table one row per loan application, with `TARGET` label |
 | `application_test.csv` | 48,744 | 121 | Same schema, unlabeled (holdout) |
 | `bureau.csv` | 1,716,428 | 17 | Client's credit history at other financial institutions |
 | `bureau_balance.csv` | 27,299,925 | 3 | Monthly status of each external bureau credit |
@@ -141,13 +141,15 @@ applicants declined) a deliberate, quantified trade-off that reduces total busin
 
 ## 6. Visualizations
 
-| | |
-|---|---|
-| **Target class distribution** ![Target distribution](Loan_Default_Cost_Optimization/Images/Fig1_target_class_distribution.png) | **External credit bureau scores by outcome** ![EXT_SOURCE](Loan_Default_Cost_Optimization/Images/Fig2_external_credit_bureau_scores.png) |
-| **Applicant age by outcome** ![Age](Loan_Default_Cost_Optimization/Images/Fig3_applicant_age_outcome.png) | **Correlation heatmap — top 20 features** ![Heatmap](Loan_Default_Cost_Optimization/Images/Fig4_correlation_heatmap.png) |
-| **ROC curve — LR vs CatBoost** ![ROC](Loan_Default_Cost_Optimization/Images/Fig5_ROC_Curve_comparison.png) | **Top 20 feature importances (CatBoost)** ![Feature importance](Loan_Default_Cost_Optimization/Images/Fig6_top_20_feature_importance.png) |
-| **Confusion matrix @ 0.5 threshold** ![CM default](Loan_Default_Cost_Optimization/Images/Fig7_Confusion_Matrix_CatBoost.png) | **Business cost vs. decision threshold** ![Cost curve](Loan_Default_Cost_Optimization/Images/Fig8_Businesscost_decision_threshold.png) |
-| **Confusion matrix: default vs. cost-optimized threshold** ![CM comparison](Loan_Default_Cost_Optimization/Images/Fig9_confusionmatrix_default_costoptimized.png) | |
+**Target class distribution** ![Target distribution](Loan_Default_Cost_Optimization/Images/Fig1_target_class_distribution.png) 
+**External credit bureau scores by outcome** ![EXT_SOURCE](Loan_Default_Cost_Optimization/Images/Fig2_external_credit_bureau_scores.png) 
+**Applicant age by outcome** ![Age](Loan_Default_Cost_Optimization/Images/Fig3_applicant_age_outcome.png) 
+**Correlation heatmap — top 20 features** ![Heatmap](Loan_Default_Cost_Optimization/Images/Fig4_correlation_heatmap.png) 
+**ROC curve — LR vs CatBoost** ![ROC](Loan_Default_Cost_Optimization/Images/Fig5_ROC_Curve_comparison.png) 
+**Top 20 feature importances (CatBoost)** ![Feature importance](Loan_Default_Cost_Optimization/Images/Fig6_top_20_feature_importance.png) 
+**Confusion matrix @ 0.5 threshold** ![CM default](Loan_Default_Cost_Optimization/Images/Fig7_Confusion_Matrix_CatBoost.png) 
+**Business cost vs. decision threshold** ![Cost curve](Loan_Default_Cost_Optimization/Images/Fig8_Businesscost_decision_threshold.png) 
+**Confusion matrix: default vs. cost-optimized threshold** ![CM comparison](Loan_Default_Cost_Optimization/Images/Fig9_confusionmatrix_default_costoptimized.png) 
 
 ---
 
